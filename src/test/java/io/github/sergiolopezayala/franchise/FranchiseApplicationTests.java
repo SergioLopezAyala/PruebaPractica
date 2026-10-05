@@ -1,10 +1,10 @@
-package io.github.sergiolopezayala.pruebapractica;
+package io.github.sergiolopezayala.franchise;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PruebaPracticaApplicationTests {
+class FranchiseApplicationTests {
 
     @Test
     void contextLoads() {
