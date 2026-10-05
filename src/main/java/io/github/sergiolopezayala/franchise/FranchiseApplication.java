@@ -1,13 +1,13 @@
-package io.github.sergiolopezayala.pruebapractica;
+package io.github.sergiolopezayala.franchise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PruebaPracticaApplication {
+public class FranchiseApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PruebaPracticaApplication.class, args);
+        SpringApplication.run(FranchiseApplication.class, args);
     }
 
 }
