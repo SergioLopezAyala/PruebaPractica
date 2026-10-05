@@ -36,3 +36,10 @@ build/
 /Claude
 CLAUDE.md
 .claude
+### Terraform ###
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
