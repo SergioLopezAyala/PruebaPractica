@@ -1,0 +1,13 @@
+package io.github.sergiolopezayala.pruebapractica;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PruebaPracticaApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(PruebaPracticaApplication.class, args);
+    }
+
+}
