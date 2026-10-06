@@ -42,4 +42,6 @@ CLAUDE.md
 *.tfstate.*
 *.tfvars
 !*.tfvars.example
+tfplan
+*.tfplan
 crash.log
