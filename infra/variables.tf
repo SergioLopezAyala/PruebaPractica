@@ -15,6 +15,20 @@ variable "atlas_org_id" {
   type        = string
 }
 
+variable "atlas_client_id" {
+  description = "Atlas service account client ID. Leave unset to use MONGODB_ATLAS_CLIENT_ID."
+  type        = string
+  default     = null
+  sensitive   = true
+}
+
+variable "atlas_client_secret" {
+  description = "Atlas service account client secret. Leave unset to use MONGODB_ATLAS_CLIENT_SECRET."
+  type        = string
+  default     = null
+  sensitive   = true
+}
+
 variable "database_name" {
   description = "MongoDB database used by the application."
   type        = string
